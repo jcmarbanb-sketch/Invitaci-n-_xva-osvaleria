@@ -73,7 +73,7 @@
         <div id="timer" style="font-size: 1.6rem; font-weight: 600; margin-bottom: 25px; color: var(--vino); text-shadow: 0 0 10px rgba(115,48,61,0.5);">Calculando tiempo...</div>
 
         <div class="fecha-bloque">28 de Noviembre de 2026</div>
-        <div class="salon-bloque">Sal&oacute;n Casa Blanca &mdash; 17:00 hrs</div>
+        <div class="salon-bloque">Sal&oacute;n Casa Blanca &mdash; 20:00 hrs</div>
         <a href="https://maps.app.goo.gl/wEeqEemeuXmpnTd1A" target="_blank" class="btn">&iquest;C&oacute;mo llegar?</a>
 
         <div class="gallery-wrapper">
@@ -150,7 +150,7 @@
         }
 
         function ejecutarCuentaRegresiva() {
-            const fechaEvento = new Date("Nov 28, 2026 17:00:00").getTime();
+            const fechaEvento = new Date("Nov 28, 2026 20:00:00").getTime();
             const ahora = new Date().getTime();
             const margenTiempo = fechaEvento - ahora;
 
@@ -184,7 +184,7 @@
             const nombre = document.getElementById('nombreInvitado').value;
             const notas = document.getElementById('mensajeInvitado').value || "Ninguna";
 
-            const numeroWhatsApp = "[Ingresa el número de teléfono aquí]"; // Reemplaza con tu número real
+            const numeroWhatsApp = "525535134058";
 
             const textoMensaje = encodeURIComponent(
                 `\u2728 *Confirmaci\u00F3n de Asistencia - XV Valeria* \u2728\n\n` +
